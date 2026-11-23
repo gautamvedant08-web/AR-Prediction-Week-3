@@ -1,0 +1,10 @@
+# Week 3 – Data Leakage Check
+
+- Removed payment-related columns such as `payment_date`, `payment_status`, `payment_delay` and target columns from model inputs.
+- Customer history features use only information available before the current invoice date.
+- Encoding, imputation and scaling were fitted on training data only.
+- Data was split chronologically into training, validation and testing sets.
+- Invoice IDs were kept for tracking, not prediction.
+- The dataset has no late-paid examples, which limits model training.
+
+**Conclusion:** The features were prepared carefully to avoid using future payment information during prediction.
