@@ -1,0 +1,62 @@
+feature_name,source,calculation,data_type,purpose,missing_value_handling
+quantity,Original dataset / engineered,See feature engineering notebook,int64,Model input feature,Training median imputation
+unit_price,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+discount_percent,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+tax_percent,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+subtotal,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+discount_amount,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+tax_amount,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+shipping_cost,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+total_amount,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+invoice_month,Original dataset / engineered,See feature engineering notebook,int32,Model input feature,Training median imputation
+invoice_quarter,Original dataset / engineered,See feature engineering notebook,int32,Model input feature,Training median imputation
+invoice_weekday,Original dataset / engineered,See feature engineering notebook,int32,Model input feature,Training median imputation
+is_month_end,Original dataset / engineered,See feature engineering notebook,int64,Model input feature,Training median imputation
+payment_term_days,Original dataset / engineered,See feature engineering notebook,int64,Model input feature,Training median imputation
+previous_invoice_count,Original dataset / engineered,See feature engineering notebook,int64,Model input feature,Training median imputation
+previous_avg_delay,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+previous_avg_invoice_value,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+log_invoice_amount,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+amount_vs_customer_avg,Original dataset / engineered,See feature engineering notebook,float64,Model input feature,Training median imputation
+has_previous_paid_history,Original dataset / engineered,See feature engineering notebook,int64,Model input feature,Training median imputation
+has_previous_invoice_history,Original dataset / engineered,See feature engineering notebook,int64,Model input feature,Training median imputation
+customer_country_Australia,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+customer_country_Canada,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+customer_country_Germany,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+customer_country_India,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+customer_country_Japan,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+customer_country_Singapore,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+customer_country_UAE,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+customer_country_UK,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+customer_country_USA,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+product_category_Apparel,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+product_category_Electronics,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+product_category_Furniture,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+product_category_Groceries,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+product_category_Industrial,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+product_category_Office Supplies,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+product_category_Packaging,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+product_category_Software,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+currency_AUD,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+currency_CAD,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+currency_EUR,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+currency_GBP,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+currency_INR,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+currency_USD,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+payment_method_Bank Transfer,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+payment_method_Cash,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+payment_method_Cheque,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+payment_method_Credit Card,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+payment_method_Debit Card,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+payment_method_Digital Wallet,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+payment_method_UPI,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+order_channel_Email,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+order_channel_Marketplace,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+order_channel_Online Portal,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+order_channel_Phone Order,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+order_channel_Sales Rep,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+order_channel_Walk-in,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+invoice_amount_bucket_High,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+invoice_amount_bucket_Low,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+invoice_amount_bucket_Medium,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
+invoice_amount_bucket_Very High,Categorical columns,One-hot encoding,Integer,Represent categorical information numerically,Unknown categories ignored
